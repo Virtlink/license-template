@@ -5,22 +5,15 @@
 [![VCS Release][release-badge]][vcs-release]
 
 
-## Quick Start
-To build the project:
-
-```shell
-./gradlew build
-```
+## License
+{% include 'license.' + license + '-summary.md.jinja' %}
 
 
-{% include 'license.' + license + '.summary.md.jinja' %}
-
-
-[vcs-build-badge]: https://github.com/Virtlink/mylib/actions/workflows/build.yaml/badge.svg
-[vcs-build]: https://github.com/Virtlink/mylib/actions
-[license-badge]: https://img.shields.io/github/license/Virtlink/mylib
-[license]: https://github.com/Virtlink/mylib/blob/main/LICENSE
-[maven-release-badge]: https://img.shields.io/maven-central/v/com.example/mylib
-[maven-release]: https://mvnrepository.com/artifact/com.example/mylib
-[vcs-release-badge]: https://img.shields.io/github/v/release/Virtlink/mylib
-[vcs-release]: https://github.com/Virtlink/mylib/releases
+[vcs-build-badge]: https://github.com/{{vcs_owner}}/{{vcs_name}}/actions/workflows/build.yaml/badge.svg
+[vcs-build]: https://github.com/{{vcs_owner}}/{{vcs_name}}/actions
+[license-badge]: https://img.shields.io/github/license/{{vcs_owner}}/{{vcs_name}}
+[license]: https://github.com/{{vcs_owner}}/{{vcs_name}}/blob/main/LICENSE
+[maven-release-badge]: https://img.shields.io/maven-central/v/com.example/{{vcs_name}}
+[maven-release]: https://mvnrepository.com/artifact/com.example/{{vcs_name}}
+[vcs-release-badge]: https://img.shields.io/github/v/release/{{vcs_owner}}/{{vcs_name}}
+[vcs-release]: https://github.com/{{vcs_owner}}/{{vcs_name}}/releases

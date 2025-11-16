@@ -125,15 +125,15 @@ This template provides the following licenses:
   - [x] [Plain text](https://github.com/github/choosealicense.com/blob/8975b74de1bd8a05b5eb8ee27b937ea00eb95f9d/_licenses/bsd-3-clause.txt)
   - [ ] [Markdown](??)
   - [ ] Summary
-- **The Unlicense**
-  ([Unlicense](https://spdx.org/licenses/Unlicense.html))\
-  <https://unlicense.org/>
-  - [x] [Plain text](https://unlicense.org/)
-  - [ ] [Markdown](??)
-  - [ ] Summary
 - **Boost Software License 1.0**
   ([BSL-1.0](https://spdx.org/licenses/BSL-1.0.html))\
   <https://www.boost.org/LICENSE_1_0.txt>
   - [x] [Plain text](https://www.boost.org/LICENSE_1_0.txt)
+  - [ ] [Markdown](??)
+  - [ ] Summary
+- **The Unlicense**
+  ([Unlicense](https://spdx.org/licenses/Unlicense.html))\
+  <https://unlicense.org/>
+  - [x] [Plain text](https://unlicense.org/)
   - [ ] [Markdown](??)
   - [ ] Summary
