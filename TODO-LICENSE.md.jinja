@@ -1,0 +1,18 @@
+# License TODO
+
+Add this license summary to `README.md`:
+
+{% include 'license.' + license_id + '-summary.md.jinja' %}
+
+Add this Gradle publication license configuration:
+
+```kotlin
+licenses {
+    // From: https://spdx.org/licenses/
+    license {
+        name.set("{{license_id}}")
+        url.set("{{license_badge_link}}")
+        distribution.set("repo")
+    }
+}
+```

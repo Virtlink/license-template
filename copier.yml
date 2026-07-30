@@ -263,6 +263,7 @@ _exclude:
   - ".svn"
   - ".jj"
   - ".gitignore"
+  - "README.md"
   - "flake.lock"
   - "flake.nix"
   - "update-licenses.py"
