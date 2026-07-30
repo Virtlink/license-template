@@ -269,3 +269,5 @@ _exclude:
   - "license.*.md"
   - "license.*.txt"
   - "license.*-summary.md"
+
+_answers_file: .copier-answers-license.yml
